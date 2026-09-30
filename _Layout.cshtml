@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Feedback Management</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container nav-content">
+                <a class="brand" asp-controller="Feedback" asp-action="Index">Feedback Management</a>
+                <div class="nav-links">
+                    <a asp-controller="Feedback" asp-action="Index">Feedback Form</a>
+                    <a asp-controller="Feedback" asp-action="List">View Feedback</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main-content">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">ASP.NET Core MVC Practical - C#</div>
+    </footer>
+</body>
+</html>

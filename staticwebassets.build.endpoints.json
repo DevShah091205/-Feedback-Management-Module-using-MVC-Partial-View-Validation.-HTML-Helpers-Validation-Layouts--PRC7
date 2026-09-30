@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Sep 2026 02:13:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.y5klufj6zp.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Sep 2026 02:13:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5klufj6zp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    }
+  ]
+}

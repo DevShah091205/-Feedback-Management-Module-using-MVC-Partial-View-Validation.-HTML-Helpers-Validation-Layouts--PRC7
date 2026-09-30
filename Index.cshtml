@@ -1,0 +1,20 @@
+@model FeedbackManagementMVC.Models.Feedback
+@{
+    ViewData["Title"] = "Feedback Form";
+}
+
+<div class="page-heading">
+    <h1>Feedback Form</h1>
+    <p>Please share your feedback.</p>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="success-message">
+        @TempData["SuccessMessage"]
+        <br />
+        <a asp-controller="Feedback" asp-action="List">View Submitted Feedback</a>
+    </div>
+}
+
+<partial name="_FeedbackForm" model="Model" />

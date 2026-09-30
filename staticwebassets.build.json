@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "jIhD+5mRUy0YN5nv5ny0phMG+lhtvHb7Dcc5f/1077M=",
+  "Source": "FeedbackManagementMVC",
+  "BasePath": "_content/FeedbackManagementMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FeedbackManagementMVC\\wwwroot",
+      "Source": "FeedbackManagementMVC",
+      "ContentRoot": "C:\\Users\\student\\Downloads\\FeedbackManagementMVC\\wwwroot\\",
+      "BasePath": "_content/FeedbackManagementMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\student\\Downloads\\FeedbackManagementMVC\\wwwroot\\css\\site.css",
+      "SourceId": "FeedbackManagementMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\student\\Downloads\\FeedbackManagementMVC\\wwwroot\\",
+      "BasePath": "_content/FeedbackManagementMVC",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5klufj6zp",
+      "Integrity": "qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\student\\Downloads\\FeedbackManagementMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Sep 2026 02:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.y5klufj6zp.css",
+      "AssetFile": "C:\\Users\\student\\Downloads\\FeedbackManagementMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Sep 2026 02:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5klufj6zp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnwlOzJ1ytTl0OSbRFrW4knp6RGdFo1IhnT3IJxekMU="
+        }
+      ]
+    }
+  ]
+}

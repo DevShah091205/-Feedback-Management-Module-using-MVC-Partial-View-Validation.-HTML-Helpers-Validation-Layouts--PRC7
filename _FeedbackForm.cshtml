@@ -1,0 +1,67 @@
+@model FeedbackManagementMVC.Models.Feedback
+
+<div class="form-card">
+    <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+
+    @using (Html.BeginForm("Submit", "Feedback", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Enter your name" })
+            @Html.ValidationMessageFor(m => m.Name, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email", placeholder = "Enter your email" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Category)
+            @Html.DropDownListFor(m => m.Category,
+                new SelectList(new[] { "Course", "Faculty", "Laboratory", "Infrastructure", "Other" }),
+                "Select category",
+                new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Category, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Rating)
+            @Html.DropDownListFor(m => m.Rating,
+                new SelectList(new[] { 1, 2, 3, 4, 5 }),
+                "Select rating",
+                new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Rating, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Message)
+            @Html.TextAreaFor(m => m.Message, 5, 40, new { @class = "form-control", placeholder = "Write your feedback" })
+            @Html.ValidationMessageFor(m => m.Message, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Suggestions)
+            @Html.TextAreaFor(m => m.Suggestions, 4, 40, new { @class = "form-control", placeholder = "Write your suggestions (optional)" })
+            @Html.ValidationMessageFor(m => m.Suggestions, "", new { @class = "field-error" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Recommend)
+            <div class="radio-group">
+                <label class="radio-option">
+                    @Html.RadioButtonFor(m => m.Recommend, "Yes") Yes
+                </label>
+                <label class="radio-option">
+                    @Html.RadioButtonFor(m => m.Recommend, "No") No
+                </label>
+            </div>
+            @Html.ValidationMessageFor(m => m.Recommend, "", new { @class = "field-error" })
+        </div>
+
+        <button type="submit" class="btn">Submit Feedback</button>
+    }
+</div>
